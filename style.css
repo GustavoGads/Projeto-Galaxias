@@ -59,3 +59,9 @@ main {
     font-size: 18px;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 370px;
+    }
+}
